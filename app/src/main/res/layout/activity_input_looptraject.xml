@@ -20,7 +20,7 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="date"
+        android:inputType="text"
         android:ems="10"
         android:id="@+id/editDate"
         android:layout_below="@+id/textView2"
@@ -38,7 +38,7 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="number"
+        android:inputType="text"
         android:ems="10"
         android:id="@+id/editAantalKms"
         android:layout_below="@+id/textView3"

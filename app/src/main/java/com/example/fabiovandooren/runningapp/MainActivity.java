@@ -14,8 +14,13 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
+
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,7 +37,11 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
     }
+
+    //functie apart gezet omdat de floating button al een onclickListener van zichzelf is
+    //dus OnClick in de XML laten verwijzen naar deze functie :)
 
     public void inputlooptraject(View view){
         Intent nieuwlooptraject = new Intent(this,inputLooptraject.class);

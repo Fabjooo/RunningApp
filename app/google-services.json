@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "626806772569",
+    "firebase_url": "https://loopapp-3694.firebaseio.com",
+    "project_id": "loopapp-3694",
+    "storage_bucket": "loopapp-3694.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626806772569:android:61474df4238330b2",
+        "android_client_info": {
+          "package_name": "com.example.fabiovandooren.runningapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626806772569-ifda52g29q7pi5jedmnq3su74sob8s33.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fabiovandooren.runningapp",
+            "certificate_hash": "c275adc5b42f6b59fdc9f2fc5f533a21472e95bc"
+          }
+        },
+        {
+          "client_id": "626806772569-evd8updp502kl7m4gienop1bphvkrnc0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALu8OJg2anVONlA4c_eK38u1q_fMpN7XQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626806772569-evd8updp502kl7m4gienop1bphvkrnc0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
