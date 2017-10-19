@@ -9,14 +9,14 @@ import java.sql.Date;
 public class LoopTraject {
 
     String loopTrajectId;
-    Date loopTrajectDatum;
-    Number loopTrajectKms;
+    String loopTrajectDatum;
+    String loopTrajectKms;
 
-    public LoopTraject(String loopTrajectId, String loopTrajectDatum, String loopTrajectKms){
+    public LoopTraject() {
 
     }
 
-    public LoopTraject(String loopTrajectId, Date loopTrajectDatum, Number loopTrajectKms) {
+    public LoopTraject(String loopTrajectId, String loopTrajectDatum, String loopTrajectKms) {
         this.loopTrajectId = loopTrajectId;
         this.loopTrajectDatum = loopTrajectDatum;
         this.loopTrajectKms = loopTrajectKms;
@@ -26,11 +26,11 @@ public class LoopTraject {
         return loopTrajectId;
     }
 
-    public Date getLoopTrajectDatum() {
+    public String getLoopTrajectDatum() {
         return loopTrajectDatum;
     }
 
-    public Number getLoopTrajectKms() {
+    public String getLoopTrajectKms() {
         return loopTrajectKms;
     }
 }

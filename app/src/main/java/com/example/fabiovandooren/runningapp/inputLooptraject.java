@@ -28,7 +28,7 @@ public class inputLooptraject extends AppCompatActivity {
         setContentView(R.layout.activity_input_looptraject);
         setDefaultDate();
 
-        databaseLoopTraject = FirebaseDatabase.getInstance().getReference();
+        databaseLoopTraject = FirebaseDatabase.getInstance().getReference("LoopTrajecten/");
 
         editTextDatum = (EditText)  findViewById(R.id.editDate);
         editTextKms = (EditText) findViewById(R.id.editAantalKms);
@@ -61,15 +61,22 @@ public class inputLooptraject extends AppCompatActivity {
         String datum = editTextDatum.getText().toString();
         String kms = editTextKms.getText().toString();
 
-        if(!TextUtils.isEmpty(kms)){
+        if(!TextUtils.isEmpty(kms) && !TextUtils.isEmpty(datum)){
            String id = databaseLoopTraject.push().getKey();
            LoopTraject loopTraject = new LoopTraject(id, datum, kms);
            databaseLoopTraject.child(id).setValue(loopTraject);
 
            Toast.makeText(this, "Nieuw Looptraject toegevoegd!", Toast.LENGTH_LONG).show();
 
-        }else{
+        }
+        else if (TextUtils.isEmpty(kms) && TextUtils.isEmpty(datum)){
+            Toast.makeText(this, "Vergeet de datum en je aantal kilometers niet in te vullen.", Toast.LENGTH_LONG).show();
+        }
+        else if (TextUtils.isEmpty(kms)){
             Toast.makeText(this, "Vul je aantal kilometers in.", Toast.LENGTH_LONG).show();
+        }
+        else{
+            Toast.makeText(this, "Vul de datum in.", Toast.LENGTH_LONG).show();
         }
     }
 }
