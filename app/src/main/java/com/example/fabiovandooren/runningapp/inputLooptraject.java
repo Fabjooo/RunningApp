@@ -1,5 +1,6 @@
 package com.example.fabiovandooren.runningapp;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -52,6 +53,7 @@ public class inputLooptraject extends AppCompatActivity {
 
         EditText datum = (EditText)findViewById(R.id.editDate);
         datum.setHint(formattedDate);
+        datum.setText(formattedDate);
 
     }
 
@@ -67,6 +69,9 @@ public class inputLooptraject extends AppCompatActivity {
            databaseLoopTraject.child(id).setValue(loopTraject);
 
            Toast.makeText(this, "Nieuw Looptraject toegevoegd!", Toast.LENGTH_LONG).show();
+           Intent mainActivity = new Intent(this, MainActivity.class);
+           startActivity(mainActivity);
+            
 
         }
         else if (TextUtils.isEmpty(kms) && TextUtils.isEmpty(datum)){

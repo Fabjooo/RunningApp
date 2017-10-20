@@ -21,8 +21,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc936af7-9354-4216-81ca-5fd1466b85f9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/LoopTrajectList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/looptrajecten_list.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
@@ -32,8 +30,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/inputLooptraject.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/inputLooptraject.java" />
     </list>
     <ignored path="RunningApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -94,8 +91,8 @@
       <file leaf-file-name="LoopTrajectList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/LoopTrajectList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="40" column="52" lean-forward="false" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
+            <state relative-caret-position="334">
+              <caret line="25" column="47" lean-forward="false" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,21 +113,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="inputLooptraject.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="inputLooptraject.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/inputLooptraject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="30" column="92" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="92" />
-              <folding />
+            <state relative-caret-position="469">
+              <caret line="73" column="12" lean-forward="false" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
+              <folding>
+                <element signature="e#1249#1399#0" expanded="true" />
+                <element signature="e#1398#1399#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="97" column="11" lean-forward="false" selection-start-line="97" selection-start-column="11" selection-end-line="97" selection-end-column="11" />
+            <state relative-caret-position="233">
+              <caret line="104" column="4" lean-forward="false" selection-start-line="104" selection-start-column="4" selection-end-line="107" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -172,8 +172,8 @@
       <file leaf-file-name="LoopTraject.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/LoopTraject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="210">
+              <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -1937,13 +1937,13 @@
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_input_looptraject.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/inputLooptraject.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/looptrajecten_list.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/LoopTrajectenLijst.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/LoopTraject.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/LoopTrajectList.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/LoopTraject.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/inputLooptraject.java" />
       </list>
     </option>
   </component>
@@ -2160,7 +2160,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1508504863087" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1508505843780" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2208,7 +2208,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1508504863087" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1508505843781" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2391,7 +2391,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1508504863088" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1508505843781" />
       </method>
     </configuration>
     <list size="1">
@@ -2617,7 +2617,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="30" column="88" lean-forward="false" selection-start-line="30" selection-start-column="75" selection-end-line="30" selection-end-column="88" />
-          <folding />
+          <folding>
+            <element signature="e#1249#1399#0" expanded="true" />
+            <element signature="e#1398#1399#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2758,7 +2761,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="57" column="67" lean-forward="false" selection-start-line="57" selection-start-column="67" selection-end-line="57" selection-end-column="67" />
-          <folding />
+          <folding>
+            <element signature="e#1249#1399#0" expanded="true" />
+            <element signature="e#1398#1399#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2798,7 +2804,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="e#1249#1399#0" expanded="true" />
+            <element signature="e#1398#1399#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2970,37 +2979,40 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/inputLooptraject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="30" column="92" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="92" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/LoopTraject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/LoopTrajectList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="40" column="52" lean-forward="false" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
+        <state relative-caret-position="334">
+          <caret line="25" column="47" lean-forward="false" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/LoopTraject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="97" column="11" lean-forward="false" selection-start-line="97" selection-start-column="11" selection-end-line="97" selection-end-column="11" />
+        <state relative-caret-position="233">
+          <caret line="104" column="4" lean-forward="false" selection-start-line="104" selection-start-column="4" selection-end-line="107" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/inputLooptraject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="73" column="12" lean-forward="false" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
+          <folding>
+            <element signature="e#1249#1399#0" expanded="true" />
+            <element signature="e#1398#1399#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
