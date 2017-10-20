@@ -13,14 +13,26 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
+    DatabaseReference databaseLoopTraject;
+    ListView listViewLooptrajecten;
+
+    List<LoopTraject> loopTrajectList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,11 +50,58 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
+        databaseLoopTraject = FirebaseDatabase.getInstance().getReference("LoopTrajecten/");
+
+        listViewLooptrajecten = (ListView) findViewById(R.id.listViewTrajecten);
+        loopTrajectList = new ArrayList<>();
+
+
+        FirebaseDatabase.getInstance().getReference().child("LoopTrajecten") //check database voor table LoopTrajecten
+                .addListenerForSingleValueEvent(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(DataSnapshot dataSnapshot) {
+                        for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
+                            LoopTraject loopTraject = snapshot.getValue(LoopTraject.class);
+                            System.out.println(loopTraject.getLoopTrajectDatum() + "met aantal gelopen kms: " + loopTraject.loopTrajectKms);
+                        }
+                    }
+                    @Override
+                    public void onCancelled(DatabaseError databaseError) {
+                    }
+                });
+
     }
+
+    protected void onStart(){
+        super.onStart();
+
+        databaseLoopTraject.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+
+                loopTrajectList.clear(); // eerst leegmaken vooraleer we alles er bij gaan zetten.
+
+                for (DataSnapshot loopTrajectSnapshot: dataSnapshot.getChildren() ){
+                    LoopTraject loopTraject = loopTrajectSnapshot.getValue(LoopTraject.class);
+
+                    loopTrajectList.add(loopTraject);
+                }
+
+                LoopTrajectList adapter = new LoopTrajectList(MainActivity.this, loopTrajectList);
+                listViewLooptrajecten.setAdapter(adapter);
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+
+    }
+
 
     //functie apart gezet omdat de floating button al een onclickListener van zichzelf is
     //dus OnClick in de XML laten verwijzen naar deze functie :)
-
     public void inputlooptraject(View view){
         Intent nieuwlooptraject = new Intent(this,inputLooptraject.class);
         startActivity(nieuwlooptraject);
