@@ -14,7 +14,11 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.CompoundButton;
 import android.widget.ListView;
+import android.widget.Switch;
+import android.widget.CompoundButton.OnCheckedChangeListener;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -23,11 +27,12 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 
-public class MainActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     DatabaseReference databaseLoopTraject;
     ListView listViewLooptrajecten;
@@ -40,6 +45,8 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        Switch sortDate = (Switch) findViewById(R.id.switch2);
+        Switch sortDistance = (Switch) findViewById(R.id.switch3);
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -70,11 +77,40 @@ public class MainActivity extends AppCompatActivity
                     }
                 });
 
+
+        sortDate.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean isChecked) {
+                if(isChecked){
+                    sortDateAsc();
+                }else{
+                    sortDateDesc();
+                }
+            }
+        });
+
+        sortDistance.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean isChecked) {
+                if(isChecked){
+                    sortDistanceAsc();
+                }else{
+                    sortDistanceDesc();
+                }
+            }
+        });
+
     }
+
 
     protected void onStart(){
         super.onStart();
 
+        sortDateDesc();
+
+    }
+
+    public void sortDateDesc() {
         databaseLoopTraject.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
@@ -87,6 +123,14 @@ public class MainActivity extends AppCompatActivity
                     loopTrajectList.add(loopTraject);
                 }
 
+                Collections.sort(loopTrajectList, new Comparator<LoopTraject>() {
+                    public int compare(LoopTraject o1, LoopTraject o2) {
+                        if (o1.getLoopTrajectDatum() == null || o2.getLoopTrajectDatum() == null)
+                            return 0;
+                        return o2.getLoopTrajectDatum().compareTo(o1.getLoopTrajectDatum());
+                    }
+                });
+
                 LoopTrajectList adapter = new LoopTrajectList(MainActivity.this, loopTrajectList);
                 listViewLooptrajecten.setAdapter(adapter);
             }
@@ -96,7 +140,102 @@ public class MainActivity extends AppCompatActivity
 
             }
         });
+    }
 
+    public void sortDateAsc() {
+        databaseLoopTraject.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+
+                loopTrajectList.clear(); // eerst leegmaken vooraleer we alles er bij gaan zetten.
+
+                for (DataSnapshot loopTrajectSnapshot: dataSnapshot.getChildren() ){
+                    LoopTraject loopTraject = loopTrajectSnapshot.getValue(LoopTraject.class);
+
+                    loopTrajectList.add(loopTraject);
+                }
+
+                Collections.sort(loopTrajectList, new Comparator<LoopTraject>() {
+                    public int compare(LoopTraject o1, LoopTraject o2) {
+                        if (o1.getLoopTrajectDatum() == null || o2.getLoopTrajectDatum() == null)
+                            return 0;
+                        return o1.getLoopTrajectDatum().compareTo(o2.getLoopTrajectDatum());
+                    }
+                });
+
+                LoopTrajectList adapter = new LoopTrajectList(MainActivity.this, loopTrajectList);
+                listViewLooptrajecten.setAdapter(adapter);
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+    }
+
+    public void sortDistanceDesc() {
+        databaseLoopTraject.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+
+                loopTrajectList.clear(); // eerst leegmaken vooraleer we alles er bij gaan zetten.
+
+                for (DataSnapshot loopTrajectSnapshot: dataSnapshot.getChildren() ){
+                    LoopTraject loopTraject = loopTrajectSnapshot.getValue(LoopTraject.class);
+
+                    loopTrajectList.add(loopTraject);
+                }
+
+                Collections.sort(loopTrajectList, new Comparator<LoopTraject>() {
+                    public int compare(LoopTraject o1, LoopTraject o2) {
+                        if (o1.getLoopTrajectKms() == null || o2.getLoopTrajectKms() == null)
+                            return 0;
+                        return o2.getLoopTrajectKms().compareTo(o1.getLoopTrajectKms());
+                    }
+                });
+
+                LoopTrajectList adapter = new LoopTrajectList(MainActivity.this, loopTrajectList);
+                listViewLooptrajecten.setAdapter(adapter);
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+    }
+
+    public void sortDistanceAsc() {
+        databaseLoopTraject.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+
+                loopTrajectList.clear(); // eerst leegmaken vooraleer we alles er bij gaan zetten.
+
+                for (DataSnapshot loopTrajectSnapshot: dataSnapshot.getChildren() ){
+                    LoopTraject loopTraject = loopTrajectSnapshot.getValue(LoopTraject.class);
+
+                    loopTrajectList.add(loopTraject);
+                }
+
+                Collections.sort(loopTrajectList, new Comparator<LoopTraject>() {
+                    public int compare(LoopTraject o1, LoopTraject o2) {
+                        if (o1.getLoopTrajectKms() == null || o2.getLoopTrajectKms() == null)
+                            return 0;
+                        return o1.getLoopTrajectKms().compareTo(o2.getLoopTrajectKms());
+                    }
+                });
+
+                LoopTrajectList adapter = new LoopTrajectList(MainActivity.this, loopTrajectList);
+                listViewLooptrajecten.setAdapter(adapter);
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
     }
 
 
