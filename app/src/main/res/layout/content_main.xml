@@ -12,11 +12,26 @@
     tools:context="com.example.fabiovandooren.runningapp.MainActivity"
     tools:showIn="@layout/app_bar_main">
 
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="500px"
+        android:text="Date " />
+
+    <Switch
+        android:id="@+id/switch3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="700px"
+        android:text="Distance " />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Lijst met gelopen trajecten:"
         android:id="@+id/textView4" />
+
 
     <ListView
         android:id="@+id/listViewTrajecten"
@@ -24,7 +39,9 @@
         android:layout_height="match_parent"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/textView4"
-        android:layout_marginTop="15dp" />
+        android:layout_marginTop="15dp" >
+
+    </ListView>
 
     <!--LOOP met gelopen trajecten-->
 
