@@ -30,7 +30,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/inputLooptraject.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/inputLooptraject.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_input_looptraject.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_input_looptraject.xml" />
     </list>
     <ignored path="RunningApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,65 +64,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="content_main.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="looptrajecten_list.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/looptrajecten_list.xml">
+      <file leaf-file-name="inputLooptraject.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/inputLooptraject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="39" lean-forward="false" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoopTrajectList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/LoopTrajectList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="25" column="47" lean-forward="false" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+            <state relative-caret-position="46">
+              <caret line="38" column="10" lean-forward="false" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1799#2044#0" expanded="true" />
+                <element signature="e#2043#2044#0" expanded="true" />
+                <marker date="1510405144625" expanded="true" signature="3276:3743" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nav_header_main.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+      <file leaf-file-name="activity_input_looptraject.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_input_looptraject.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
               <folding />
             </state>
           </provider>
-          <provider selected="true" editor-type-id="android-designer2">
-            <state />
-          </provider>
         </entry>
       </file>
-      <file leaf-file-name="inputLooptraject.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/inputLooptraject.java">
+      <file leaf-file-name="activity_main_drawer.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="73" column="12" lean-forward="false" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
+            <state relative-caret-position="90">
+              <caret line="6" column="51" lean-forward="false" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
               <folding>
-                <element signature="e#1249#1399#0" expanded="true" />
-                <element signature="e#1398#1399#0" expanded="true" />
+                <marker date="1510149034827" expanded="true" signature="1123:1139" ph="..." />
               </folding>
             </state>
           </provider>
@@ -129,52 +110,24 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="104" column="4" lean-forward="false" selection-start-line="104" selection-start-column="4" selection-end-line="107" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="3330">
+              <caret line="251" column="45" lean-forward="false" selection-start-line="251" selection-start-column="45" selection-end-line="251" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <marker date="1510344329049" expanded="true" signature="11128:11284" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <file leaf-file-name="LoopTrajectList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/LoopTrajectList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoopTraject.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/LoopTraject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-              <folding />
+            <state relative-caret-position="480">
+              <caret line="41" column="61" lean-forward="false" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1625,75 +1578,75 @@
                       <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
                           <list>
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/build/gradle/3.0.0-rc1/gradle-3.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/build/gradle/3.0.0-rc1/gradle-3.0.0-rc1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.gms/google-services/3.1.0/69fa869c4e477847f332b7a6c204462f9aabfced/google-services-3.1.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.gms/google-services/3.1.0/166ae4e6acd03b7bbebe221ffa54bc039fece1b9/google-services-3.1.0.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/build/gradle-core/3.0.0-rc1/gradle-core-3.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/build/builder/3.0.0-rc1/builder-3.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/lint/lint/26.0.0-rc1/lint-26.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/external/org-jetbrains/uast/26.0.0-rc1/uast-26.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/build/gradle-api/3.0.0-rc1/gradle-api-3.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/databinding/compilerCommon/3.0.0-rc1/compilerCommon-3.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/jetbrains/kotlin/kotlin-stdlib/1.1.3-2/kotlin-stdlib-1.1.3-2.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/build/transform-api/2.0.0-deprecated-use-gradle-api/transform-api-2.0.0-deprecated-use-gradle-api.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/ow2/asm/asm/5.1/asm-5.1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/ow2/asm/asm-analysis/5.1/asm-analysis-5.1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/ow2/asm/asm-commons/5.1/asm-commons-5.1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/ow2/asm/asm-util/5.1/asm-util-5.1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/jacoco/org.jacoco.core/0.7.4.201502262128/org.jacoco.core-0.7.4.201502262128.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/jacoco/org.jacoco.report/0.7.4.201502262128/org.jacoco.report-0.7.4.201502262128.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/net/sf/jopt-simple/jopt-simple/4.9/jopt-simple-4.9.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/net/sf/proguard/proguard-gradle/5.3.3/proguard-gradle-5.3.3.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/google/protobuf/protobuf-java/3.0.0/protobuf-java-3.0.0.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/build/builder-model/3.0.0-rc1/builder-model-3.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/build/builder-test-api/3.0.0-rc1/builder-test-api-3.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/sdklib/26.0.0-rc1/sdklib-26.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/sdk-common/26.0.0-rc1/sdk-common-26.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/common/26.0.0-rc1/common-26.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/build/manifest-merger/26.0.0-rc1/manifest-merger-26.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/ddms/ddmlib/26.0.0-rc1/ddmlib-26.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/analytics-library/protos/26.0.0-rc1/protos-26.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/analytics-library/shared/26.0.0-rc1/shared-26.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/analytics-library/tracker/26.0.0-rc1/tracker-26.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/build/apksig/3.0.0-rc1/apksig-3.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.56/bcpkix-jdk15on-1.56.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.56/bcprov-jdk15on-1.56.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/ow2/asm/asm-tree/5.1/asm-tree-5.1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/it/unimi/dsi/fastutil/7.2.0/fastutil-7.2.0.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/lint/lint-checks/26.0.0-rc1/lint-checks-26.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.6.1/ecj-4.6.1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/google/guava/guava/22.0/guava-22.0.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/databinding/baseLibrary/3.0.0-rc1/baseLibrary-3.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/antlr/antlr4/4.5.3/antlr4-4.5.3.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/commons-io/commons-io/2.4/commons-io-2.4.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/annotations/26.0.0-rc1/annotations-26.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/net/sf/proguard/proguard-base/5.3.3/proguard-base-5.3.3.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/layoutlib/layoutlib-api/26.0.0-rc1/layoutlib-api-26.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/dvlib/26.0.0-rc1/dvlib-26.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/repository/26.0.0-rc1/repository-26.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/google/code/gson/gson/2.3/gson-2.3.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/apache/commons/commons-compress/1.12/commons-compress-1.12.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/apache/httpcomponents/httpclient/4.2.6/httpclient-4.2.6.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/lint/lint-api/26.0.0-rc1/lint-api-26.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/google/jimfs/jimfs/1.1/jimfs-1.1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/apache/httpcomponents/httpcore/4.2.5/httpcore-4.2.5.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/commons-codec/commons-codec/1.6/commons-codec-1.6.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/external/com-intellij/intellij-core/26.0.0-rc1/intellij-core-26.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/jetbrains/kotlin/kotlin-reflect/1.1.3-2/kotlin-reflect-1.1.3-2.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/jetbrains/annotations/13.0/annotations-13.0.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/jetbrains/trove4j/trove4j/20160824/trove4j-20160824.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/build/gradle-core/3.0.0-rc1/gradle-core-3.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/build/builder/3.0.0-rc1/builder-3.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/lint/lint/26.0.0-rc1/lint-26.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/external/org-jetbrains/uast/26.0.0-rc1/uast-26.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/build/gradle-api/3.0.0-rc1/gradle-api-3.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/databinding/compilerCommon/3.0.0-rc1/compilerCommon-3.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/jetbrains/kotlin/kotlin-stdlib/1.1.3-2/kotlin-stdlib-1.1.3-2.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/build/transform-api/2.0.0-deprecated-use-gradle-api/transform-api-2.0.0-deprecated-use-gradle-api.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/ow2/asm/asm/5.1/asm-5.1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/ow2/asm/asm-analysis/5.1/asm-analysis-5.1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/ow2/asm/asm-commons/5.1/asm-commons-5.1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/ow2/asm/asm-util/5.1/asm-util-5.1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/jacoco/org.jacoco.core/0.7.4.201502262128/org.jacoco.core-0.7.4.201502262128.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/jacoco/org.jacoco.report/0.7.4.201502262128/org.jacoco.report-0.7.4.201502262128.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/net/sf/jopt-simple/jopt-simple/4.9/jopt-simple-4.9.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/net/sf/proguard/proguard-gradle/5.3.3/proguard-gradle-5.3.3.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/google/protobuf/protobuf-java/3.0.0/protobuf-java-3.0.0.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/build/builder-model/3.0.0-rc1/builder-model-3.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/build/builder-test-api/3.0.0-rc1/builder-test-api-3.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/sdklib/26.0.0-rc1/sdklib-26.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/sdk-common/26.0.0-rc1/sdk-common-26.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/common/26.0.0-rc1/common-26.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/build/manifest-merger/26.0.0-rc1/manifest-merger-26.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/ddms/ddmlib/26.0.0-rc1/ddmlib-26.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/analytics-library/protos/26.0.0-rc1/protos-26.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/analytics-library/shared/26.0.0-rc1/shared-26.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/analytics-library/tracker/26.0.0-rc1/tracker-26.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/build/apksig/3.0.0-rc1/apksig-3.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.56/bcpkix-jdk15on-1.56.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.56/bcprov-jdk15on-1.56.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/ow2/asm/asm-tree/5.1/asm-tree-5.1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/it/unimi/dsi/fastutil/7.2.0/fastutil-7.2.0.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/lint/lint-checks/26.0.0-rc1/lint-checks-26.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.6.1/ecj-4.6.1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/google/guava/guava/22.0/guava-22.0.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/databinding/baseLibrary/3.0.0-rc1/baseLibrary-3.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/antlr/antlr4/4.5.3/antlr4-4.5.3.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/commons-io/commons-io/2.4/commons-io-2.4.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/annotations/26.0.0-rc1/annotations-26.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/net/sf/proguard/proguard-base/5.3.3/proguard-base-5.3.3.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/layoutlib/layoutlib-api/26.0.0-rc1/layoutlib-api-26.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/dvlib/26.0.0-rc1/dvlib-26.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/repository/26.0.0-rc1/repository-26.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/google/code/gson/gson/2.3/gson-2.3.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/apache/commons/commons-compress/1.12/commons-compress-1.12.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/apache/httpcomponents/httpclient/4.2.6/httpclient-4.2.6.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/lint/lint-api/26.0.0-rc1/lint-api-26.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/google/jimfs/jimfs/1.1/jimfs-1.1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/apache/httpcomponents/httpcore/4.2.5/httpcore-4.2.5.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/commons-codec/commons-codec/1.6/commons-codec-1.6.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/external/com-intellij/intellij-core/26.0.0-rc1/intellij-core-26.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/jetbrains/kotlin/kotlin-reflect/1.1.3-2/kotlin-reflect-1.1.3-2.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/jetbrains/annotations/13.0/annotations-13.0.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/jetbrains/trove4j/trove4j/20160824/trove4j-20160824.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar" />
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$" />
@@ -1705,75 +1658,75 @@
                       <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
                           <list>
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/build/gradle/3.0.0-rc1/gradle-3.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/build/gradle/3.0.0-rc1/gradle-3.0.0-rc1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.gms/google-services/3.1.0/69fa869c4e477847f332b7a6c204462f9aabfced/google-services-3.1.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.gms/google-services/3.1.0/166ae4e6acd03b7bbebe221ffa54bc039fece1b9/google-services-3.1.0.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/build/gradle-core/3.0.0-rc1/gradle-core-3.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/build/builder/3.0.0-rc1/builder-3.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/lint/lint/26.0.0-rc1/lint-26.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/external/org-jetbrains/uast/26.0.0-rc1/uast-26.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/build/gradle-api/3.0.0-rc1/gradle-api-3.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/databinding/compilerCommon/3.0.0-rc1/compilerCommon-3.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/jetbrains/kotlin/kotlin-stdlib/1.1.3-2/kotlin-stdlib-1.1.3-2.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/build/transform-api/2.0.0-deprecated-use-gradle-api/transform-api-2.0.0-deprecated-use-gradle-api.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/ow2/asm/asm/5.1/asm-5.1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/ow2/asm/asm-analysis/5.1/asm-analysis-5.1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/ow2/asm/asm-commons/5.1/asm-commons-5.1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/ow2/asm/asm-util/5.1/asm-util-5.1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/jacoco/org.jacoco.core/0.7.4.201502262128/org.jacoco.core-0.7.4.201502262128.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/jacoco/org.jacoco.report/0.7.4.201502262128/org.jacoco.report-0.7.4.201502262128.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/net/sf/jopt-simple/jopt-simple/4.9/jopt-simple-4.9.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/net/sf/proguard/proguard-gradle/5.3.3/proguard-gradle-5.3.3.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/google/protobuf/protobuf-java/3.0.0/protobuf-java-3.0.0.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/build/builder-model/3.0.0-rc1/builder-model-3.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/build/builder-test-api/3.0.0-rc1/builder-test-api-3.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/sdklib/26.0.0-rc1/sdklib-26.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/sdk-common/26.0.0-rc1/sdk-common-26.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/common/26.0.0-rc1/common-26.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/build/manifest-merger/26.0.0-rc1/manifest-merger-26.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/ddms/ddmlib/26.0.0-rc1/ddmlib-26.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/analytics-library/protos/26.0.0-rc1/protos-26.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/analytics-library/shared/26.0.0-rc1/shared-26.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/analytics-library/tracker/26.0.0-rc1/tracker-26.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/build/apksig/3.0.0-rc1/apksig-3.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.56/bcpkix-jdk15on-1.56.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.56/bcprov-jdk15on-1.56.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/ow2/asm/asm-tree/5.1/asm-tree-5.1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/it/unimi/dsi/fastutil/7.2.0/fastutil-7.2.0.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/lint/lint-checks/26.0.0-rc1/lint-checks-26.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.6.1/ecj-4.6.1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/google/guava/guava/22.0/guava-22.0.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/databinding/baseLibrary/3.0.0-rc1/baseLibrary-3.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/antlr/antlr4/4.5.3/antlr4-4.5.3.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/commons-io/commons-io/2.4/commons-io-2.4.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/annotations/26.0.0-rc1/annotations-26.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/net/sf/proguard/proguard-base/5.3.3/proguard-base-5.3.3.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/layoutlib/layoutlib-api/26.0.0-rc1/layoutlib-api-26.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/dvlib/26.0.0-rc1/dvlib-26.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/repository/26.0.0-rc1/repository-26.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/google/code/gson/gson/2.3/gson-2.3.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/apache/commons/commons-compress/1.12/commons-compress-1.12.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/apache/httpcomponents/httpclient/4.2.6/httpclient-4.2.6.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/lint/lint-api/26.0.0-rc1/lint-api-26.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/google/jimfs/jimfs/1.1/jimfs-1.1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/apache/httpcomponents/httpcore/4.2.5/httpcore-4.2.5.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/commons-codec/commons-codec/1.6/commons-codec-1.6.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/external/com-intellij/intellij-core/26.0.0-rc1/intellij-core-26.0.0-rc1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/jetbrains/kotlin/kotlin-reflect/1.1.3-2/kotlin-reflect-1.1.3-2.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/jetbrains/annotations/13.0/annotations-13.0.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/jetbrains/trove4j/trove4j/20160824/trove4j-20160824.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar" />
-                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/550E5727-D683-41EC-9053-D3124F5773E2/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/build/gradle-core/3.0.0-rc1/gradle-core-3.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/build/builder/3.0.0-rc1/builder-3.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/lint/lint/26.0.0-rc1/lint-26.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/external/org-jetbrains/uast/26.0.0-rc1/uast-26.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/build/gradle-api/3.0.0-rc1/gradle-api-3.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/databinding/compilerCommon/3.0.0-rc1/compilerCommon-3.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/jetbrains/kotlin/kotlin-stdlib/1.1.3-2/kotlin-stdlib-1.1.3-2.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/build/transform-api/2.0.0-deprecated-use-gradle-api/transform-api-2.0.0-deprecated-use-gradle-api.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/ow2/asm/asm/5.1/asm-5.1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/ow2/asm/asm-analysis/5.1/asm-analysis-5.1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/ow2/asm/asm-commons/5.1/asm-commons-5.1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/ow2/asm/asm-util/5.1/asm-util-5.1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/jacoco/org.jacoco.core/0.7.4.201502262128/org.jacoco.core-0.7.4.201502262128.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/jacoco/org.jacoco.report/0.7.4.201502262128/org.jacoco.report-0.7.4.201502262128.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/net/sf/jopt-simple/jopt-simple/4.9/jopt-simple-4.9.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/net/sf/proguard/proguard-gradle/5.3.3/proguard-gradle-5.3.3.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/google/protobuf/protobuf-java/3.0.0/protobuf-java-3.0.0.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/build/builder-model/3.0.0-rc1/builder-model-3.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/build/builder-test-api/3.0.0-rc1/builder-test-api-3.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/sdklib/26.0.0-rc1/sdklib-26.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/sdk-common/26.0.0-rc1/sdk-common-26.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/common/26.0.0-rc1/common-26.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/build/manifest-merger/26.0.0-rc1/manifest-merger-26.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/ddms/ddmlib/26.0.0-rc1/ddmlib-26.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/analytics-library/protos/26.0.0-rc1/protos-26.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/analytics-library/shared/26.0.0-rc1/shared-26.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/analytics-library/tracker/26.0.0-rc1/tracker-26.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/build/apksig/3.0.0-rc1/apksig-3.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.56/bcpkix-jdk15on-1.56.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.56/bcprov-jdk15on-1.56.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/ow2/asm/asm-tree/5.1/asm-tree-5.1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/it/unimi/dsi/fastutil/7.2.0/fastutil-7.2.0.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/lint/lint-checks/26.0.0-rc1/lint-checks-26.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.6.1/ecj-4.6.1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/google/guava/guava/22.0/guava-22.0.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/databinding/baseLibrary/3.0.0-rc1/baseLibrary-3.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/antlr/antlr4/4.5.3/antlr4-4.5.3.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/commons-io/commons-io/2.4/commons-io-2.4.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/annotations/26.0.0-rc1/annotations-26.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/net/sf/proguard/proguard-base/5.3.3/proguard-base-5.3.3.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/layoutlib/layoutlib-api/26.0.0-rc1/layoutlib-api-26.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/dvlib/26.0.0-rc1/dvlib-26.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/repository/26.0.0-rc1/repository-26.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/google/code/gson/gson/2.3/gson-2.3.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/apache/commons/commons-compress/1.12/commons-compress-1.12.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/apache/httpcomponents/httpclient/4.2.6/httpclient-4.2.6.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/lint/lint-api/26.0.0-rc1/lint-api-26.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/google/jimfs/jimfs/1.1/jimfs-1.1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/apache/httpcomponents/httpcore/4.2.5/httpcore-4.2.5.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/commons-codec/commons-codec/1.6/commons-codec-1.6.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/external/com-intellij/intellij-core/26.0.0-rc1/intellij-core-26.0.0-rc1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/jetbrains/kotlin/kotlin-reflect/1.1.3-2/kotlin-reflect-1.1.3-2.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/jetbrains/annotations/13.0/annotations-13.0.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/jetbrains/trove4j/trove4j/20160824/trove4j-20160824.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar" />
+                            <option value="/private/var/folders/dg/0xdjjh3d029dpm_ww32dh8mh0000gn/T/AppTranslocation/E96B878D-5AA3-49B0-9779-70217A7D7636/d/Android Studio 3.0.app/Contents/gradle/m2repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar" />
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$/app" />
@@ -1936,7 +1889,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_input_looptraject.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/looptrajecten_list.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/LoopTrajectenLijst.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/LoopTrajectList.java" />
@@ -1944,6 +1896,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/LoopTraject.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/inputLooptraject.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_input_looptraject.xml" />
       </list>
     </option>
   </component>
@@ -1967,6 +1920,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1977,6 +1933,24 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Gradle Scripts" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidBuildScriptsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RunningApp" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2055,10 +2029,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2069,7 +2040,7 @@
     <property name="FullScreen" value="true" />
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
-    <property name="device.picker.selection" value="192.168.56.101:5555" />
+    <property name="device.picker.selection" value="Nexus_5X_API_27" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.packageName">
@@ -2160,7 +2131,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1508505843780" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1510405542067" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2208,7 +2179,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1508505843781" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1510405542067" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2240,27 +2211,6 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
@@ -2391,7 +2341,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1508505843781" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1510405542068" />
       </method>
     </configuration>
     <list size="1">
@@ -2500,6 +2450,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296146" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2526,7 +2477,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -2566,7 +2516,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#547#548#0" expanded="false" />
+            <element signature="e#583#584#0" expanded="false" />
+            <element signature="e#626#627#0" expanded="false" />
+            <element signature="e#665#666#0" expanded="false" />
+            <element signature="e#706#707#0" expanded="false" />
+            <element signature="e#743#744#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2575,42 +2532,46 @@
         <state relative-caret-position="465">
           <caret line="40" column="41" lean-forward="false" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#328#361#0" expanded="true" />
+            <element signature="e#386#421#0" expanded="true" />
+            <element signature="e#447#482#0" expanded="true" />
+            <element signature="e#506#539#0" expanded="true" />
+            <element signature="e#564#604#0" expanded="true" />
+          </folding>
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/looptrajecten_list.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="39" lean-forward="false" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="39" lean-forward="false" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-          <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/inputLooptraject.java">
@@ -2618,8 +2579,10 @@
         <state relative-caret-position="255">
           <caret line="30" column="88" lean-forward="false" selection-start-line="30" selection-start-column="75" selection-end-line="30" selection-end-column="88" />
           <folding>
-            <element signature="e#1249#1399#0" expanded="true" />
-            <element signature="e#1398#1399#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1799#2044#0" expanded="true" />
+            <element signature="e#2043#2044#0" expanded="true" />
+            <marker date="1510405144625" expanded="true" signature="3276:3743" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -2628,19 +2591,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="55" column="19" lean-forward="false" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <marker date="1510344329049" expanded="true" signature="11128:11284" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="42" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
@@ -2663,7 +2629,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#547#548#0" expanded="false" />
+            <element signature="e#583#584#0" expanded="false" />
+            <element signature="e#626#627#0" expanded="false" />
+            <element signature="e#665#666#0" expanded="false" />
+            <element signature="e#706#707#0" expanded="false" />
+            <element signature="e#743#744#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2672,48 +2645,56 @@
         <state relative-caret-position="480">
           <caret line="41" column="8" lean-forward="false" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-          <folding />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding>
+            <element signature="e#328#361#0" expanded="true" />
+            <element signature="e#386#421#0" expanded="true" />
+            <element signature="e#447#482#0" expanded="true" />
+            <element signature="e#506#539#0" expanded="true" />
+            <element signature="e#564#604#0" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml">
       <provider selected="true" editor-type-id="android-designer2">
         <state />
       </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_input_looptraject.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="44" lean-forward="false" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <marker date="1510344329049" expanded="true" signature="11128:11284" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2745,7 +2726,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="92" lean-forward="false" selection-start-line="18" selection-start-column="92" selection-end-line="18" selection-end-column="92" />
-          <folding />
+          <folding>
+            <element signature="e#547#548#0" expanded="false" />
+            <element signature="e#583#584#0" expanded="false" />
+            <element signature="e#626#627#0" expanded="false" />
+            <element signature="e#665#666#0" expanded="false" />
+            <element signature="e#706#707#0" expanded="false" />
+            <element signature="e#743#744#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2762,42 +2750,49 @@
         <state relative-caret-position="630">
           <caret line="57" column="67" lean-forward="false" selection-start-line="57" selection-start-column="67" selection-end-line="57" selection-end-column="67" />
           <folding>
-            <element signature="e#1249#1399#0" expanded="true" />
-            <element signature="e#1398#1399#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1799#2044#0" expanded="true" />
+            <element signature="e#2043#2044#0" expanded="true" />
+            <marker date="1510405144625" expanded="true" signature="3276:3743" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-          <folding />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding>
+            <element signature="e#328#361#0" expanded="true" />
+            <element signature="e#386#421#0" expanded="true" />
+            <element signature="e#447#482#0" expanded="true" />
+            <element signature="e#506#539#0" expanded="true" />
+            <element signature="e#564#604#0" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml">
       <provider selected="true" editor-type-id="android-designer2">
         <state />
       </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_input_looptraject.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="40" column="33" lean-forward="false" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/inputLooptraject.java">
@@ -2805,8 +2800,10 @@
         <state relative-caret-position="60">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
-            <element signature="e#1249#1399#0" expanded="true" />
-            <element signature="e#1398#1399#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1799#2044#0" expanded="true" />
+            <element signature="e#2043#2044#0" expanded="true" />
+            <marker date="1510405144625" expanded="true" signature="3276:3743" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -2815,28 +2812,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <marker date="1510344329049" expanded="true" signature="11128:11284" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/main.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="31" />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
@@ -2856,9 +2856,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="465">
           <caret line="31" column="41" lean-forward="false" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2870,50 +2874,43 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="31" />
-        </state>
-      </provider>
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="51" lean-forward="false" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+          <folding>
+            <marker date="1510149034827" expanded="true" signature="1123:1139" ph="..." />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/main.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="35" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_input_looptraject.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="44" lean-forward="false" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="90">
+          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -2935,56 +2932,32 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="android-designer2">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="42" />
-          <folding />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/LoopTrajectenLijst.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/looptrajecten_list.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="39" lean-forward="false" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="39" lean-forward="false" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/LoopTrajectList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="25" column="47" lean-forward="false" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+        <state relative-caret-position="480">
+          <caret line="41" column="61" lean-forward="false" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="61" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2993,26 +2966,77 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding />
+          <folding>
+            <element signature="e#547#548#0" expanded="false" />
+            <element signature="e#583#584#0" expanded="false" />
+            <element signature="e#626#627#0" expanded="false" />
+            <element signature="e#665#666#0" expanded="false" />
+            <element signature="e#706#707#0" expanded="false" />
+            <element signature="e#743#744#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="104" column="4" lean-forward="false" selection-start-line="104" selection-start-column="4" selection-end-line="107" selection-end-column="5" />
+        <state relative-caret-position="3330">
+          <caret line="251" column="45" lean-forward="false" selection-start-line="251" selection-start-column="45" selection-end-line="251" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <marker date="1510344329049" expanded="true" signature="11128:11284" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="45" column="33" lean-forward="false" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+          <folding>
+            <element signature="e#328#361#0" expanded="true" />
+            <element signature="e#386#421#0" expanded="true" />
+            <element signature="e#447#482#0" expanded="true" />
+            <element signature="e#506#539#0" expanded="true" />
+            <element signature="e#564#604#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/inputLooptraject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="73" column="12" lean-forward="false" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
+        <state relative-caret-position="46">
+          <caret line="38" column="10" lean-forward="false" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
           <folding>
-            <element signature="e#1249#1399#0" expanded="true" />
-            <element signature="e#1398#1399#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1799#2044#0" expanded="true" />
+            <element signature="e#2043#2044#0" expanded="true" />
+            <marker date="1510405144625" expanded="true" signature="3276:3743" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_input_looptraject.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
