@@ -7,12 +7,14 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.NumberPicker;
 import android.widget.Toast;
 
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 //import java.sql.Date;
+import java.awt.font.NumericShaper;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
@@ -22,6 +24,8 @@ public class inputLooptraject extends AppCompatActivity {
     EditText editTextKms;
     Button buttonAddLoopTraject;
     DatabaseReference databaseLoopTraject;
+    NumberPicker numberPicker = null;
+    String kms;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,13 +36,27 @@ public class inputLooptraject extends AppCompatActivity {
         databaseLoopTraject = FirebaseDatabase.getInstance().getReference("LoopTrajecten/");
 
         editTextDatum = (EditText)  findViewById(R.id.editDate);
-        editTextKms = (EditText) findViewById(R.id.editAantalKms);
+        //editTextKms = (EditText) findViewById(R.id.editAantalKms);
+        numberPicker = (NumberPicker) findViewById(R.id.numberPicker);
         buttonAddLoopTraject = (Button) findViewById(R.id.buttonVoegTrajectToe);
 
         buttonAddLoopTraject.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 addLoopTraject();
+            }
+        });
+
+        //Number Picker
+        numberPicker.setMaxValue(40);
+        numberPicker.setMinValue(1);
+        numberPicker.setWrapSelectorWheel(false);
+        numberPicker.setOnValueChangedListener( new NumberPicker.
+                OnValueChangeListener() {
+            @Override
+            public void onValueChange(NumberPicker picker, int
+                    oldVal, int newVal) {
+                kms = "" + newVal;
             }
         });
 
@@ -58,10 +76,11 @@ public class inputLooptraject extends AppCompatActivity {
     }
 
     //LoopTraject toevoegen aan database online via Firebase Google
-    private void addLoopTraject(){
+    public void addLoopTraject(){
 
         String datum = editTextDatum.getText().toString();
-        String kms = editTextKms.getText().toString();
+        //String kms = editTextKms.getText().toString();
+        //kms = numberPicker.getValue();
 
         if(!TextUtils.isEmpty(kms) && !TextUtils.isEmpty(datum)){
            String id = databaseLoopTraject.push().getKey();
