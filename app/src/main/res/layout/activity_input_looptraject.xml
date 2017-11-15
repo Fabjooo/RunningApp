@@ -10,39 +10,41 @@
     tools:context="com.example.fabiovandooren.runningapp.inputLooptraject">
 
     <TextView
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Geef hier je datum in wanneer je hebt gelopen:"
-        android:id="@+id/textView2"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="Geef hier je datum in wanneer je hebt gelopen:" />
 
     <EditText
+        android:id="@+id/editDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="text"
-        android:ems="10"
-        android:id="@+id/editDate"
+        android:textAlignment="center"
         android:layout_below="@+id/textView2"
-        android:layout_alignParentStart="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="text" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Geef hier het aantal kilometers in dat je gelopen hebt."
         android:id="@+id/textView3"
-        android:layout_marginTop="55dp"
-        android:layout_below="@+id/editDate"
-        android:layout_alignParentStart="true" />
-
-    <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="text"
-        android:ems="10"
-        android:id="@+id/editAantalKms"
+        android:layout_below="@+id/editDate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:text="Geef hier het aantal kilometers in dat je gelopen hebt." />
+
+    <NumberPicker
+        android:id="@+id/numberPicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/textView3"
-        android:layout_alignParentStart="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -52,5 +54,6 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:layout_marginBottom="24dp" />
+
 
 </RelativeLayout>
