@@ -47,30 +47,30 @@
         android:onClick="logout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/com_facebook_button_login_silver_background_color_pressed"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:text="@string/logout" />
+        android:text="@string/logout"
+        android:id="@+id/button2" />
 
     <Button
+        android:id="@+id/fb_share_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="false"
-        android:id="@+id/fb_share_button"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/speak"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@color/colorWhite"
         android:text="Share" />
 
     <Button
+        android:id="@+id/speak"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="false"
-        android:id="@+id/speak"
-        android:text="Speak!" />
-
-
-
-    <!--LOOP met gelopen trajecten-->
-
-
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@color/colorWhite"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/listViewTrajecten"
+        android:text="Speak" />
 
 </RelativeLayout>
