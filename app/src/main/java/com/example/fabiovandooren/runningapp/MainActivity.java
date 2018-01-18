@@ -1,5 +1,6 @@
 package com.example.fabiovandooren.runningapp;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import java.util.Locale;
@@ -21,6 +22,7 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.ListView;
@@ -55,10 +57,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     ListView listViewLooptrajecten;
     Button shareButton;
     Intent shareIntent;
-    String shareBody = "Je hebt gelopen!";
+    String shareBody = "Ik heb !";
     private Button speakButton;
     private TextToSpeech myWiseWords;
     List<LoopTraject> loopTrajectList;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -142,6 +145,14 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             }
         });
 
+        /*klikken op listviewItem mgeeft voorlopig de positie terug van het aangeklikte listItem*/
+        final ListView listView = (ListView) findViewById(R.id.listViewTrajecten);
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            public void onItemClick(AdapterView<?> av, View view, int i, long l) {
+                //String text = i.toString().trim(); text uit item halen???
+                Toast.makeText(MainActivity.this, "myPos " + i, Toast.LENGTH_LONG).show();
+            }
+        });
 
 
         //SET THE FUNCTION "speakWiseWords" READY FOR KOEN PELLEGRIMS
