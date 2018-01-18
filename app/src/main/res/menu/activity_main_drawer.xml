@@ -31,14 +31,9 @@
                 android:icon="@drawable/ic_menu_send"
                 android:title="Send" />
             <item
-                android:id="@+id/icon_group"
-                android:icon="@drawable/ic_menu_manage"
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_logout"
                 android:title="Logout" />
-            <!--<item
-                android:onClick="logout"
-                android:id="@+id/logout"
-                android:icon="@drawable/com_facebook_button_icon_white"
-                android:title="Logout" />-->
         </menu>
     </item>
 

@@ -119,6 +119,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 });
 
 
+
         sortDate.setOnCheckedChangeListener(new OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean isChecked) {
@@ -141,6 +142,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             }
         });
 
+
+
         //SET THE FUNCTION "speakWiseWords" READY FOR KOEN PELLEGRIMS
         myWiseWords = new TextToSpeech(this, this);
         speakButton = (Button) findViewById(R.id.speak);
@@ -152,6 +155,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         });
 
     }
+
+    /*
+    *
+    * END OF ONCREATE
+    *
+    * */
 
     //Check if languague is set or if it is supported
     @Override
@@ -373,9 +382,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
+        String holdup = "Opening...";
 
         if (id == R.id.nav_camera) {
             // Handle the camera action
+            Toast.makeText(getApplicationContext(), holdup + "Camera", Toast.LENGTH_SHORT).show();
         } else if (id == R.id.nav_gallery) {
 
         } else if (id == R.id.nav_slideshow) {
@@ -386,6 +397,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         } else if (id == R.id.nav_send) {
 
+        }else if (id == R.id.nav_logout) {
+            LoginManager.getInstance().logOut();
+            openLoginScreen();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
