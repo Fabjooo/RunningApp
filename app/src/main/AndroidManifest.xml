@@ -11,16 +11,18 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
+        <provider android:authorities="com.facebook.app.FacebookContentProvider{331063654039391}"
+            android:name="com.facebook.FacebookContentProvider"
+            android:exported="true"/> <!--Nodig voor Facebook Sharing-->
+
         <meta-data android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id"/> <!--verwijst naar strings.xml waar facebook_app_id staat gedeclareerd-->
 
-        <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".MainActivity"
+                  android:label="@string/app_name"
+                  android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

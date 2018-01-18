@@ -51,6 +51,24 @@
         android:layout_centerHorizontal="true"
         android:text="@string/logout" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="false"
+        android:id="@+id/fb_share_button"
+        android:text="Share" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="false"
+        android:id="@+id/speak"
+        android:text="Speak!" />
+
+
+
     <!--LOOP met gelopen trajecten-->
 
 

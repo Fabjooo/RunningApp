@@ -2,10 +2,16 @@ package com.example.fabiovandooren.runningapp;
 
 import android.content.Intent;
 import android.os.Bundle;
+import java.util.Locale;
+
+import android.speech.tts.Voice;
+import android.util.Log;
+import android.speech.tts.TextToSpeech;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.support.design.widget.NavigationView;
@@ -15,31 +21,43 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.ListView;
 import android.widget.Switch;
 import android.widget.CompoundButton.OnCheckedChangeListener;
+import android.widget.Toast;
 
 import com.facebook.AccessToken;
 import com.facebook.FacebookSdk;
+import com.facebook.GraphRequest;
+import com.facebook.GraphResponse;
 import com.facebook.login.LoginManager;
+import com.facebook.share.widget.ShareButton;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
+import org.json.JSONObject;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
+import java.util.Locale;
 
 
-public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener, TextToSpeech.OnInitListener {
 
     DatabaseReference databaseLoopTraject;
     ListView listViewLooptrajecten;
-
+    Button shareButton;
+    Intent shareIntent;
+    String shareBody = "Je hebt gelopen!";
+    private Button speakButton;
+    private TextToSpeech myWiseWords;
     List<LoopTraject> loopTrajectList;
 
     @Override
@@ -49,10 +67,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         setContentView(R.layout.activity_main);
 
         //checken of je ingelogd bent
-        if(AccessToken.getCurrentAccessToken() == null){
+        if (AccessToken.getCurrentAccessToken() == null) {
             openLoginScreen();
         }
-
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -73,6 +90,18 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         listViewLooptrajecten = (ListView) findViewById(R.id.listViewTrajecten);
         loopTrajectList = new ArrayList<>();
 
+        shareButton = (Button) findViewById(R.id.fb_share_button);
+        shareButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                shareIntent = new Intent(Intent.ACTION_SEND);
+                shareIntent.setType("text/plain");
+                shareIntent.putExtra(Intent.EXTRA_SUBJECT, "LoopApp");
+                shareIntent.putExtra(Intent.EXTRA_TEXT, shareBody);
+                startActivity(Intent.createChooser(shareIntent, "Share via: "));
+            }
+        });
+
 
         FirebaseDatabase.getInstance().getReference().child("LoopTrajecten") //check database voor table LoopTrajecten
                 .addListenerForSingleValueEvent(new ValueEventListener() {
@@ -83,6 +112,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                             System.out.println(loopTraject.getLoopTrajectDatum() + "met aantal gelopen kms: " + loopTraject.loopTrajectKms);
                         }
                     }
+
                     @Override
                     public void onCancelled(DatabaseError databaseError) {
                     }
@@ -92,9 +122,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         sortDate.setOnCheckedChangeListener(new OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean isChecked) {
-                if(isChecked){
+                if (isChecked) {
                     sortDateAsc();
-                }else{
+                } else {
                     sortDateDesc();
                 }
             }
@@ -103,14 +133,52 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         sortDistance.setOnCheckedChangeListener(new OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean isChecked) {
-                if(isChecked){
+                if (isChecked) {
                     sortDistanceAsc();
-                }else{
+                } else {
                     sortDistanceDesc();
                 }
             }
         });
 
+        //SET THE FUNCTION "speakWiseWords" READY FOR KOEN PELLEGRIMS
+        myWiseWords = new TextToSpeech(this, this);
+        speakButton = (Button) findViewById(R.id.speak);
+        speakButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                speakWiseWords();
+            }
+        });
+
+    }
+
+    //Check if languague is set or if it is supported
+    @Override
+    public void onInit(int status) {
+
+        if (status == TextToSpeech.SUCCESS) {
+
+            int result = myWiseWords.setLanguage(Locale.US);
+
+            if (result == TextToSpeech.LANG_MISSING_DATA
+                    || result == TextToSpeech.LANG_NOT_SUPPORTED) {
+                Log.e("TTS", "This Language is not supported");
+            } else {
+                speakButton.setEnabled(true);
+            }
+
+        } else {
+            Log.e("TTS", "Initilization Failed!");
+        }
+
+    }
+        //Let this Android-phone speak wise words!
+    private void speakWiseWords() {
+        //Set the desired wise text
+        String words = "Hi my name is Fabio Van Dooren and I have a message for Koen Pellegrims: Android has very powerful mechanisms, thanks for being our teacher this year!";
+        //SPEAK THEM WISE WORDS :O
+        myWiseWords.speak(words, TextToSpeech.QUEUE_FLUSH, null);
     }
 
     private void openLoginScreen() {
