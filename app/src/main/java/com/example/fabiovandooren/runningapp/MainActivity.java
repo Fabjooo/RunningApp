@@ -3,6 +3,11 @@ package com.example.fabiovandooren.runningapp;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Locale;
 
 import android.speech.tts.Voice;
@@ -79,7 +84,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         Switch sortDate = (Switch) findViewById(R.id.switch2);
-        Switch sortDistance = (Switch) findViewById(R.id.switch3);
+        //Switch sortDistance = (Switch) findViewById(R.id.switch3);
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -129,14 +134,14 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         sortDate.setOnCheckedChangeListener(new OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean isChecked) {
-                if (isChecked) {
-                    sortDateAsc();
-                } else {
+                if(isChecked){
+                    sortDistanceDesc();
+                }else{
                     sortDateDesc();
                 }
             }
         });
-
+/*
         sortDistance.setOnCheckedChangeListener(new OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean isChecked) {
@@ -147,7 +152,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 }
             }
         });
-
+*/
         /*https://stackoverflow.com/questions/3184672/what-does-adapterview-mean-in-the-onitemclick-method-what-is-the-use-of-ot*/
 
         final ListView listView = (ListView) findViewById(R.id.listViewTrajecten);
@@ -261,11 +266,26 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 }
 
                 Collections.sort(loopTrajectList, new Comparator<LoopTraject>() {
+                    DateFormat format = new SimpleDateFormat("dd-MMM-yyyy", Locale.ENGLISH);
+                    @Override
+                    public int compare(LoopTraject o1, LoopTraject o2) {
+                        String date1 = o1.getLoopTrajectDatum();
+                        String date2 = o2.getLoopTrajectDatum();
+
+                        try {
+                            return format.parse(date2).compareTo(format.parse(date1));
+                        } catch (ParseException e) {
+                            e.printStackTrace();
+                            throw new IllegalArgumentException(e);
+                        }
+                    }
+                    /*
                     public int compare(LoopTraject o1, LoopTraject o2) {
                         if (o1.getLoopTrajectDatum() == null || o2.getLoopTrajectDatum() == null)
                             return 0;
                         return o2.getLoopTrajectDatum().compareTo(o1.getLoopTrajectDatum());
                     }
+                    */
                 });
 
                 LoopTrajectList adapter = new LoopTrajectList(MainActivity.this, loopTrajectList);
@@ -279,37 +299,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         });
     }
 
-    public void sortDateAsc() {
-        databaseLoopTraject.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
 
-                loopTrajectList.clear(); // eerst leegmaken vooraleer we alles er bij gaan zetten.
-
-                for (DataSnapshot loopTrajectSnapshot: dataSnapshot.getChildren() ){
-                    LoopTraject loopTraject = loopTrajectSnapshot.getValue(LoopTraject.class);
-
-                    loopTrajectList.add(loopTraject);
-                }
-
-                Collections.sort(loopTrajectList, new Comparator<LoopTraject>() {
-                    public int compare(LoopTraject o1, LoopTraject o2) {
-                        if (o1.getLoopTrajectDatum() == null || o2.getLoopTrajectDatum() == null)
-                            return 0;
-                        return o1.getLoopTrajectDatum().compareTo(o2.getLoopTrajectDatum());
-                    }
-                });
-
-                LoopTrajectList adapter = new LoopTrajectList(MainActivity.this, loopTrajectList);
-                listViewLooptrajecten.setAdapter(adapter);
-            }
-
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-
-            }
-        });
-    }
 
     public void sortDistanceDesc() {
         databaseLoopTraject.addValueEventListener(new ValueEventListener() {
@@ -326,9 +316,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
                 Collections.sort(loopTrajectList, new Comparator<LoopTraject>() {
                     public int compare(LoopTraject o1, LoopTraject o2) {
-                        if (o1.getLoopTrajectKms() == null || o2.getLoopTrajectKms() == null)
-                            return 0;
-                        return o2.getLoopTrajectKms().compareTo(o1.getLoopTrajectKms());
+                        Integer distance1 = Integer.parseInt(o1.getLoopTrajectKms());
+                        Integer distance2 = Integer.parseInt(o2.getLoopTrajectKms());
+
+                        return distance2.compareTo(distance1);
+
                     }
                 });
 
@@ -343,37 +335,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         });
     }
 
-    public void sortDistanceAsc() {
-        databaseLoopTraject.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-
-                loopTrajectList.clear(); // eerst leegmaken vooraleer we alles er bij gaan zetten.
-
-                for (DataSnapshot loopTrajectSnapshot: dataSnapshot.getChildren() ){
-                    LoopTraject loopTraject = loopTrajectSnapshot.getValue(LoopTraject.class);
-
-                    loopTrajectList.add(loopTraject);
-                }
-
-                Collections.sort(loopTrajectList, new Comparator<LoopTraject>() {
-                    public int compare(LoopTraject o1, LoopTraject o2) {
-                        if (o1.getLoopTrajectKms() == null || o2.getLoopTrajectKms() == null)
-                            return 0;
-                        return o1.getLoopTrajectKms().compareTo(o2.getLoopTrajectKms());
-                    }
-                });
-
-                LoopTrajectList adapter = new LoopTrajectList(MainActivity.this, loopTrajectList);
-                listViewLooptrajecten.setAdapter(adapter);
-            }
-
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-
-            }
-        });
-    }
 
 
     //functie apart gezet omdat de floating button al een onclickListener van zichzelf is
