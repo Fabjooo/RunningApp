@@ -28,6 +28,7 @@ import android.widget.CompoundButton;
 import android.widget.ListView;
 import android.widget.Switch;
 import android.widget.CompoundButton.OnCheckedChangeListener;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.facebook.AccessToken;
@@ -118,6 +119,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
                     @Override
                     public void onCancelled(DatabaseError databaseError) {
+                        Toast.makeText(getApplicationContext(), "Couldn't reach Database.", Toast.LENGTH_SHORT).show();
                     }
                 });
 
@@ -145,12 +147,17 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             }
         });
 
-        /*klikken op listviewItem mgeeft voorlopig de positie terug van het aangeklikte listItem*/
+        /*https://stackoverflow.com/questions/3184672/what-does-adapterview-mean-in-the-onitemclick-method-what-is-the-use-of-ot*/
+
         final ListView listView = (ListView) findViewById(R.id.listViewTrajecten);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> av, View view, int i, long l) {
-                //String text = i.toString().trim(); text uit item halen???
-                Toast.makeText(MainActivity.this, "myPos " + i, Toast.LENGTH_LONG).show();
+                TextView tvDatum = (TextView) view.findViewById(R.id.textViewDatum);
+                String datumText = tvDatum.getText().toString();
+                TextView tvKms = (TextView) view.findViewById(R.id.textViewKms);
+                String kmsText = tvKms.getText().toString();
+
+                Toast.makeText(MainActivity.this, "myPos " + i + " Datum: " + datumText + " Kms: " + kmsText, Toast.LENGTH_LONG).show();
             }
         });
 
@@ -169,7 +176,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     /*
     *
-    * END OF ONCREATE
+    * END OF ONCREATE()
     *
     * */
 
