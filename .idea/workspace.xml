@@ -21,6 +21,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc936af7-9354-4216-81ca-5fd1466b85f9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-19-16-08-53-258.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-19-16-20-58-402.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-19-16-21-53-161.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-19-16-27-56-797.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-19-16-27-59-345.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-19-16-28-51-847.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-19-16-29-23-132.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-19-16-31-09-436.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-19-16-32-06-392.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-19-16-33-53-445.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-19-16-39-21-843.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-19-16-08-53-258.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-19-16-20-58-402.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-19-16-21-53-161.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-19-16-27-56-797.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-19-16-27-59-345.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-19-16-28-51-847.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-19-16-29-23-132.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-19-16-31-09-436.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-19-16-32-06-392.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-19-16-33-53-445.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-19-16-39-21-843.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
@@ -97,8 +119,8 @@
       <file leaf-file-name="editLooptraject.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/editLooptraject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="94" column="40" lean-forward="true" selection-start-line="94" selection-start-column="40" selection-end-line="94" selection-end-column="40" />
+            <state relative-caret-position="166">
+              <caret line="89" column="52" lean-forward="true" selection-start-line="89" selection-start-column="52" selection-end-line="89" selection-end-column="52" />
               <folding>
                 <element signature="e#3054#3055#0" expanded="true" />
                 <element signature="e#3099#3100#0" expanded="true" />
@@ -2573,7 +2595,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516376759924" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516376928590" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2621,7 +2643,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516376759924" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516376928590" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2783,7 +2805,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516376759924" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516376928591" />
       </method>
     </configuration>
     <list size="1">
@@ -3432,8 +3454,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/editLooptraject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="94" column="40" lean-forward="true" selection-start-line="94" selection-start-column="40" selection-end-line="94" selection-end-column="40" />
+        <state relative-caret-position="166">
+          <caret line="89" column="52" lean-forward="true" selection-start-line="89" selection-start-column="52" selection-end-line="89" selection-end-column="52" />
           <folding>
             <element signature="e#3054#3055#0" expanded="true" />
             <element signature="e#3099#3100#0" expanded="true" />
