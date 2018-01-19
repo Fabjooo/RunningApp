@@ -35,11 +35,13 @@ public class LoopTrajectList extends ArrayAdapter<LoopTraject> {
 
         TextView textViewDatum = (TextView) listViewItem.findViewById(R.id.textViewDatum);
         TextView textViewKms = (TextView) listViewItem.findViewById(R.id.textViewKms);
+        TextView textViewID = (TextView) listViewItem.findViewById(R.id.textViewID);
 
         LoopTraject loopTraject = loopTrajectList.get(position);
 
         textViewDatum.setText(loopTraject.getLoopTrajectDatum());
         textViewKms.setText(loopTraject.getLoopTrajectKms());
+        textViewID.setText(loopTraject.getLoopTrajectId());
 
         return listViewItem;
 

@@ -56,6 +56,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     DatabaseReference databaseLoopTraject;
     ListView listViewLooptrajecten;
+    String looptrajectID;
     Button shareButton;
     Intent shareIntent;
     String shareBody = "Ik heb !";
@@ -154,10 +155,20 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             public void onItemClick(AdapterView<?> av, View view, int i, long l) {
                 TextView tvDatum = (TextView) view.findViewById(R.id.textViewDatum);
                 String datumText = tvDatum.getText().toString();
+
                 TextView tvKms = (TextView) view.findViewById(R.id.textViewKms);
                 String kmsText = tvKms.getText().toString();
 
-                Toast.makeText(MainActivity.this, "myPos " + i + " Datum: " + datumText + " Kms: " + kmsText, Toast.LENGTH_LONG).show();
+                TextView tvID = (TextView) view.findViewById(R.id.textViewID);
+                String IDText = tvID.getText().toString();
+
+
+                //looptrajectID = databaseLoopTraject.child("LoopTrajecten").getKey();
+                System.out.println("Looptraject id: " + IDText);
+
+                openUpdateLooptrajectScreen(IDText);
+
+                //Toast.makeText(MainActivity.this, "myPos " + i + " Datum: " + datumText + " Kms: " + kmsText, Toast.LENGTH_LONG).show();
             }
         });
 
@@ -203,9 +214,18 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         //Let this Android-phone speak wise words!
     private void speakWiseWords() {
         //Set the desired wise text
-        String words = "Hi my name is Fabio Van Dooren and I have a message for Koen Pellegrims: Android has very powerful mechanisms, thanks for being our teacher this year!";
+        String words = "Hi my name is Fabio Van Dooren and I have a message for Koen Pellegrims: Android has very powerful mechanisms. By the way: thanks for being our teacher this year!";
         //SPEAK THEM WISE WORDS :O
         myWiseWords.speak(words, TextToSpeech.QUEUE_FLUSH, null);
+    }
+
+    private void openUpdateLooptrajectScreen(String IDText) {
+        Intent intent = new Intent(this, editLooptraject.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+        intent.putExtra("LOOPTRAJECT_ID: ", IDText);
+        Toast.makeText(MainActivity.this, "Looptraject id: " + IDText , Toast.LENGTH_LONG).show();
+
+        startActivity(intent);
     }
 
     private void openLoginScreen() {
