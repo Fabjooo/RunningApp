@@ -17,6 +17,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import java.awt.font.NumericShaper;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Locale;
 
 public class inputLooptraject extends AppCompatActivity {
 
@@ -66,7 +67,7 @@ public class inputLooptraject extends AppCompatActivity {
     public void setDefaultDate(){
         Calendar c = Calendar.getInstance();
         System.out.println("Current time => " + c.getTime());
-        SimpleDateFormat df = new SimpleDateFormat("dd-MMM-yyyy");
+        SimpleDateFormat df = new SimpleDateFormat("dd-MMM-yyyy", Locale.ENGLISH);
         String formattedDate = df.format(c.getTime());
 
         EditText datum = (EditText)findViewById(R.id.editDate);
