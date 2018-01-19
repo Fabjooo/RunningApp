@@ -28,9 +28,11 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.ListView;
+import android.widget.Spinner;
 import android.widget.Switch;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.TextView;
@@ -83,8 +85,40 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        Switch sortDate = (Switch) findViewById(R.id.switch2);
+
+        //SORTING DROPDOWN
+
+        //Switch sortDate = (Switch) findViewById(R.id.switch2);
         //Switch sortDistance = (Switch) findViewById(R.id.switch3);
+        Spinner mySpinner = (Spinner) findViewById(R.id.spinner);
+
+        ArrayAdapter<String> myAdapter = new ArrayAdapter<String>(MainActivity.this,
+                android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.sorting));
+
+        myAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        mySpinner.setAdapter(myAdapter);
+
+        mySpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                if(position == 0){
+                    Log.d("tag", "date");
+                    sortDateDesc();
+                }
+
+                if(position == 1){
+                    Log.d("tag", "distance");
+                    sortDistanceDesc();
+                }
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
+
+        //END SORTING DROPDOWN
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -130,7 +164,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 });
 
 
-
+/*
         sortDate.setOnCheckedChangeListener(new OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean isChecked) {
@@ -138,17 +172,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                     sortDistanceDesc();
                 }else{
                     sortDateDesc();
-                }
-            }
-        });
-/*
-        sortDistance.setOnCheckedChangeListener(new OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton compoundButton, boolean isChecked) {
-                if (isChecked) {
-                    sortDistanceAsc();
-                } else {
-                    sortDistanceDesc();
                 }
             }
         });

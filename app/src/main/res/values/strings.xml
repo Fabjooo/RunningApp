@@ -12,4 +12,9 @@
     <string name="cancel_login">login cancelled</string>
     <string name="error_login">error while logging in.</string>
     <string name="logout">logout</string>
+
+    <string-array name="sorting">
+        <item>Date</item>
+        <item>Distance</item>
+    </string-array>
 </resources>

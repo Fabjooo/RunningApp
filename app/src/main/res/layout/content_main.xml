@@ -12,36 +12,6 @@
     tools:context="com.example.fabiovandooren.runningapp.MainActivity"
     tools:showIn="@layout/app_bar_main">
 
-    <Switch
-        android:id="@+id/switch2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/textView4"
-        android:layout_alignBottom="@+id/textView4"
-        android:layout_toEndOf="@+id/button2"
-        android:text="" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/switch2"
-        android:layout_alignBottom="@+id/switch2"
-        android:layout_marginStart="13dp"
-        android:layout_toEndOf="@+id/switch2"
-        android:text="Distance"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/switch2"
-        android:layout_alignBottom="@+id/switch2"
-        android:layout_alignEnd="@+id/button2"
-        android:layout_marginEnd="15dp"
-        android:text="Date"
-        android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -49,6 +19,15 @@
         android:text="Lijst met gelopen trajecten:"
         android:id="@+id/textView4" />
 
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_toEndOf="@+id/textView4"
+        android:text="Sort" />
 
     <ListView
         android:id="@+id/listViewTrajecten"
@@ -77,17 +56,24 @@
         android:layout_alignParentEnd="true"
         android:layout_below="@+id/speak"
         android:backgroundTint="@color/colorPrimary"
-        android:textColor="@color/colorWhite"
-        android:text="Share" />
+        android:text="Share"
+        android:textColor="@color/colorWhite" />
 
     <Button
         android:id="@+id/speak"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/colorPrimary"
-        android:textColor="@color/colorWhite"
         android:layout_alignParentEnd="true"
         android:layout_alignTop="@+id/listViewTrajecten"
-        android:text="Speak" />
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Speak"
+        android:textColor="@color/colorWhite" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/listViewTrajecten"
+        android:layout_toEndOf="@+id/textView6" />
 
 </RelativeLayout>
