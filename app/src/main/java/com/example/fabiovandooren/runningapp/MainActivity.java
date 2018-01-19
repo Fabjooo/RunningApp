@@ -57,9 +57,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     DatabaseReference databaseLoopTraject;
     ListView listViewLooptrajecten;
     String looptrajectID;
+    String datumText;
+    String kmsText;
     Button shareButton;
     Intent shareIntent;
-    String shareBody = "Ik heb !";
+    String shareBody = "Ik heb op [datum] [x aantal] kilometers gelopen!";
     private Button speakButton;
     private TextToSpeech myWiseWords;
     List<LoopTraject> loopTrajectList;
@@ -154,10 +156,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> av, View view, int i, long l) {
                 TextView tvDatum = (TextView) view.findViewById(R.id.textViewDatum);
-                String datumText = tvDatum.getText().toString();
+                datumText = tvDatum.getText().toString();
 
                 TextView tvKms = (TextView) view.findViewById(R.id.textViewKms);
-                String kmsText = tvKms.getText().toString();
+                kmsText = tvKms.getText().toString();
 
                 TextView tvID = (TextView) view.findViewById(R.id.textViewID);
                 String IDText = tvID.getText().toString();
@@ -165,6 +167,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
                 //looptrajectID = databaseLoopTraject.child("LoopTrajecten").getKey();
                 System.out.println("Looptraject id: " + IDText);
+                System.out.println("KMS: " + kmsText);
 
                 openUpdateLooptrajectScreen(IDText);
 
@@ -222,8 +225,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private void openUpdateLooptrajectScreen(String IDText) {
         Intent intent = new Intent(this, editLooptraject.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
-        intent.putExtra("LOOPTRAJECT_ID: ", IDText);
-        Toast.makeText(MainActivity.this, "Looptraject id: " + IDText , Toast.LENGTH_LONG).show();
+        intent.putExtra("LOOPTRAJECT_ID", IDText);
+        intent.putExtra("datumText", datumText);
+        intent.putExtra("kmsText", kmsText);
+        //Toast.makeText(MainActivity.this, "Looptraject id: " + IDText , Toast.LENGTH_LONG).show();
 
         startActivity(intent);
     }
