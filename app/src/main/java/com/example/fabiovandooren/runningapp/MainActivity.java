@@ -1,24 +1,25 @@
 package com.example.fabiovandooren.runningapp;
 
-import android.app.Activity;
+import android.annotation.TargetApi;
+import android.content.Context;
 import android.content.Intent;
+import android.location.Address;
+import android.location.Geocoder;
+import android.location.Location;
+import android.location.LocationListener;
+import android.location.LocationManager;
+import android.os.Build;
 import android.os.Bundle;
 
+import java.io.IOException;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.Locale;
 
-import android.speech.tts.Voice;
 import android.util.Log;
 import android.speech.tts.TextToSpeech;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
-import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -30,33 +31,24 @@ import android.view.MenuItem;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.CompoundButton;
 import android.widget.ListView;
 import android.widget.Spinner;
-import android.widget.Switch;
-import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.facebook.AccessToken;
 import com.facebook.FacebookSdk;
-import com.facebook.GraphRequest;
-import com.facebook.GraphResponse;
 import com.facebook.login.LoginManager;
-import com.facebook.share.widget.ShareButton;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-import org.json.JSONObject;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
-import java.util.Locale;
 
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener, TextToSpeech.OnInitListener {
@@ -70,6 +62,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private Button speakButton;
     private TextToSpeech myWiseWords;
     List<LoopTraject> loopTrajectList;
+    Button locationButton;
+    LocationManager location_manager;
+    double x;
+    double y;
+    Geocoder geocoder;
+    List<Address> addresses;
 
 
     @Override
@@ -164,18 +162,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 });
 
 
-/*
-        sortDate.setOnCheckedChangeListener(new OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton compoundButton, boolean isChecked) {
-                if(isChecked){
-                    sortDistanceDesc();
-                }else{
-                    sortDateDesc();
-                }
-            }
-        });
-*/
         /*https://stackoverflow.com/questions/3184672/what-does-adapterview-mean-in-the-onitemclick-method-what-is-the-use-of-ot*/
 
         final ListView listView = (ListView) findViewById(R.id.listViewTrajecten);
@@ -208,6 +194,21 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             @Override
             public void onClick(View view) {
                 speakWiseWords();
+            }
+        });
+
+
+        location_manager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
+        locationButton = (Button) findViewById(R.id.location_button);
+        locationButton.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+
+                //Request current location using GPS
+                LocationListener listener = new MyLocationListener();
+                location_manager.requestLocationUpdates(
+                        LocationManager.GPS_PROVIDER, 0, 100, listener);
             }
         });
 
@@ -427,5 +428,66 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    public class MyLocationListener implements LocationListener {
+
+        @SuppressWarnings("static-access")
+        @TargetApi(Build.VERSION_CODES.GINGERBREAD)
+        @Override
+        public void onLocationChanged(Location location) {
+            //set long & lat coords of current location
+            x = location.getLatitude();
+            y = location.getLongitude();
+
+            try {
+                //call geocoder to get location out of long & lat
+                geocoder = new Geocoder(MainActivity.this, Locale.ENGLISH);
+                addresses = geocoder.getFromLocation(x, y, 1);
+                StringBuilder str = new StringBuilder();
+                if (geocoder.isPresent()) {
+                    Address returnAddress = addresses.get(0);
+
+                    String localityString = returnAddress.getLocality();
+                    String city = returnAddress.getCountryName();
+                    String region_code = returnAddress.getCountryCode();
+                    String zipcode = returnAddress.getPostalCode();
+
+                    //combine multiple string into one
+                    str.append(localityString + " ");
+                    str.append(city + "" + region_code + " ");
+                    str.append(zipcode + " ");
+
+                    //display location for 2.5s
+                    Toast.makeText(getApplicationContext(), str, Toast.LENGTH_SHORT).show();
+
+                } else {
+                    Toast.makeText(getApplicationContext(),"Geocoder unavailable", Toast.LENGTH_SHORT).show();
+                }
+
+            } catch (IOException e) {
+                Log.e("tag", e.getMessage());
+            }
+
+        }
+
+        @Override
+        public void onProviderDisabled(String arg0) {
+
+
+        }
+
+        @Override
+        public void onProviderEnabled(String arg0) {
+
+
+        }
+
+        @Override
+        public void onStatusChanged(String arg0, int arg1, Bundle arg2) {
+
+
+        }
+
     }
 }
