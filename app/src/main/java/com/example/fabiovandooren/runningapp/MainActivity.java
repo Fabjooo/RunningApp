@@ -248,7 +248,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         //Let this Android-phone speak wise words!
     private void speakWiseWords() {
         //Set the desired wise text
-        String words = "Hi my name is Fabio Van Dooren and I have a message for Koen Pellegrims: Android has very powerful mechanisms. By the way: thanks for being our teacher this year!";
+        String words = "Hey what's up Koen Pellegrims, we are Fabio Van Dooren and Robber Reygel and we have a message for you. Android has very powerful mechanisms! By the way: thanks for being our teacher this year!";
         //SPEAK THEM WISE WORDS :O
         myWiseWords.speak(words, TextToSpeech.QUEUE_FLUSH, null);
     }
