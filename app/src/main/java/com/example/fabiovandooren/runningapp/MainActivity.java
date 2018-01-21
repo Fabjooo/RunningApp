@@ -172,6 +172,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
 
         /*https://stackoverflow.com/questions/3184672/what-does-adapterview-mean-in-the-onitemclick-method-what-is-the-use-of-ot*/
+        //ItemClicklistener om te luisteren naar click uit ListView (geeft km & datum door naar update-scherm)
 
         final ListView listView = (ListView) findViewById(R.id.listViewTrajecten);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
