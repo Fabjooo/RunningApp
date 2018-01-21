@@ -16,6 +16,7 @@ import java.io.IOException;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Locale;
 
 import android.util.Log;
@@ -44,13 +45,13 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
-
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener, TextToSpeech.OnInitListener {
 
@@ -61,10 +62,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     String kmsText;
     Button shareButton;
     Intent shareIntent;
-    String shareBody = "Ik heb op [datum] [x aantal] kilometers gelopen!";
+    List<LoopTraject> loopTrajectList;
+
+    String shareBody;
     private Button speakButton;
     private TextToSpeech myWiseWords;
-    List<LoopTraject> loopTrajectList;
+
     Button locationButton;
     LocationManager location_manager;
     double x;
@@ -131,9 +134,29 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         navigationView.setNavigationItemSelectedListener(this);
 
         databaseLoopTraject = FirebaseDatabase.getInstance().getReference("LoopTrajecten/");
-
         listViewLooptrajecten = (ListView) findViewById(R.id.listViewTrajecten);
         loopTrajectList = new ArrayList<>();
+
+
+
+
+        FirebaseDatabase.getInstance().getReference().child("LoopTrajecten") //check database voor table LoopTrajecten
+                .addListenerForSingleValueEvent(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(DataSnapshot dataSnapshot) {
+                        for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
+                            LoopTraject loopTraject = snapshot.getValue(LoopTraject.class);
+                            System.out.println(loopTraject.getLoopTrajectDatum() + "met aantal gelopen kms: " + loopTraject.loopTrajectKms);
+                            shareBody = "RunningApp » Ik heb op "+ loopTraject.getLoopTrajectDatum() +" "+ loopTraject.getLoopTrajectKms() +" kilometers gelopen!";
+                        }
+                    }
+
+                    @Override
+                    public void onCancelled(DatabaseError databaseError) {
+                        Toast.makeText(getApplicationContext(), "Couldn't reach Database.", Toast.LENGTH_SHORT).show();
+                    }
+                });
+
 
         shareButton = (Button) findViewById(R.id.fb_share_button);
         shareButton.setOnClickListener(new View.OnClickListener() {
@@ -146,23 +169,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 startActivity(Intent.createChooser(shareIntent, "Share via: "));
             }
         });
-
-
-        FirebaseDatabase.getInstance().getReference().child("LoopTrajecten") //check database voor table LoopTrajecten
-                .addListenerForSingleValueEvent(new ValueEventListener() {
-                    @Override
-                    public void onDataChange(DataSnapshot dataSnapshot) {
-                        for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
-                            LoopTraject loopTraject = snapshot.getValue(LoopTraject.class);
-                            System.out.println(loopTraject.getLoopTrajectDatum() + "met aantal gelopen kms: " + loopTraject.loopTrajectKms);
-                        }
-                    }
-
-                    @Override
-                    public void onCancelled(DatabaseError databaseError) {
-                        Toast.makeText(getApplicationContext(), "Couldn't reach Database.", Toast.LENGTH_SHORT).show();
-                    }
-                });
 
 
         /*https://stackoverflow.com/questions/3184672/what-does-adapterview-mean-in-the-onitemclick-method-what-is-the-use-of-ot*/
