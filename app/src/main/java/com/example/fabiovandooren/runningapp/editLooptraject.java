@@ -21,7 +21,7 @@ import java.util.Calendar;
 public class editLooptraject extends AppCompatActivity {
 
     EditText editTextDatum;
-    EditText editTextKms;
+    //EditText editTextKms;
     int kmsInt;
     String datumText;
     String kmsText;
@@ -77,7 +77,7 @@ public class editLooptraject extends AppCompatActivity {
         setDefaultKms();
     }
 
-    //zoekt naar huidige dag en zet deze klaar als hint in de EditText
+    //zoekt naar dag die is meegegeven met de Intent en zet deze klaar in de EditText
     public void setDefaultDate(){
         EditText datum = (EditText)findViewById(R.id.editDate);
         datum.setText(datumText);
@@ -96,7 +96,7 @@ public class editLooptraject extends AppCompatActivity {
 
         if(!TextUtils.isEmpty(kms) && !TextUtils.isEmpty(datum)){
             String id = databaseLoopTraject.push().getKey();
-            LoopTraject loopTraject = new LoopTraject(id, datum, kms); //maakt nieuw item aan!
+            LoopTraject loopTraject = new LoopTraject(id, datum, kms); //maakt nieuw item aan, moet nog aangepast worden!
             databaseLoopTraject.child(id).setValue(loopTraject);
 
             Toast.makeText(this, "Looptraject geupdated!", Toast.LENGTH_LONG).show();
