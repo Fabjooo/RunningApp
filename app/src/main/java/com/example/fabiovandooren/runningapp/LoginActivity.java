@@ -47,6 +47,9 @@ public class LoginActivity extends FragmentActivity {
             public void onSuccess(LoginResult loginResult) {
                 openMainscreen();
 
+                Bundle parameters = new Bundle();
+                parameters.putString("fields", "id, first_name");
+
                 GraphRequest request = GraphRequest.newMeRequest(
                         AccessToken.getCurrentAccessToken(),
                         new GraphRequest.GraphJSONObjectCallback() {
@@ -66,12 +69,11 @@ public class LoginActivity extends FragmentActivity {
                                 }
                             }
                         });
-                Bundle parameters = new Bundle();
-                parameters.putString("fields", "id,first_name");
+
                 request.setParameters(parameters);
                 request.executeAsync();
 
-                Toast.makeText(getApplicationContext(), "Welkom, " + FBName, Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getApplicationContext(), "Welkom, " + FBName, Toast.LENGTH_SHORT).show();
 
             }
 
