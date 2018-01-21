@@ -15,10 +15,16 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+
 public class editLooptraject extends AppCompatActivity {
 
     EditText editTextDatum;
-    EditText editTextKms;
+    //EditText editTextKms;
+    int kmsInt;
+    String datumText;
+    String kmsText;
     Button buttonUpdateLoopTraject;
     DatabaseReference databaseLoopTraject;
     NumberPicker numberPicker = null;
@@ -56,9 +62,29 @@ public class editLooptraject extends AppCompatActivity {
             }
         });
 
-        String s = getIntent().getStringExtra("LOOPTRAJECT_ID");
-        Query queryRef = databaseLoopTraject.orderByChild("loopTrajectId").equalTo(s);
+        //We halen Looptraject-id & datumText & kmsText uit de Intent die MainActivity heeft meegegeven.
+        String looptrajectId = getIntent().getStringExtra("LOOPTRAJECT_ID");
+        datumText = getIntent().getStringExtra("datumText");
+        //kmsText moet omgezet worden naar Integer voor de numberPicker
+        kmsText = getIntent().getStringExtra("kmsText");
+        kmsInt = Integer.valueOf(kmsText.toString());
+
+        Query queryRef = databaseLoopTraject.orderByChild("loopTrajectId").equalTo(looptrajectId);
         Log.e("QUERYREF-ID", "queryref" + queryRef);
+
+        //System.out.println("Current time in EditText => " + datumText);
+        setDefaultDate();
+        setDefaultKms();
+    }
+
+    //zoekt naar dag die is meegegeven met de Intent en zet deze klaar in de EditText
+    public void setDefaultDate(){
+        EditText datum = (EditText)findViewById(R.id.editDate);
+        datum.setText(datumText);
+    }
+
+    public void setDefaultKms(){
+        numberPicker.setValue(kmsInt);
     }
 
     //LoopTraject updaten online via Firebase Google
@@ -70,7 +96,7 @@ public class editLooptraject extends AppCompatActivity {
 
         if(!TextUtils.isEmpty(kms) && !TextUtils.isEmpty(datum)){
             String id = databaseLoopTraject.push().getKey();
-            LoopTraject loopTraject = new LoopTraject(id, datum, kms);
+            LoopTraject loopTraject = new LoopTraject(id, datum, kms); //maakt nieuw item aan, moet nog aangepast worden!
             databaseLoopTraject.child(id).setValue(loopTraject);
 
             Toast.makeText(this, "Looptraject geupdated!", Toast.LENGTH_LONG).show();
