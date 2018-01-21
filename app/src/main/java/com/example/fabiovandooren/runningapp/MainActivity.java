@@ -3,7 +3,9 @@ package com.example.fabiovandooren.runningapp;
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.location.Address;
 import android.location.Geocoder;
 import android.location.Location;
@@ -11,6 +13,7 @@ import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Build;
 import android.os.Bundle;
+import android.Manifest;
 
 import java.io.IOException;
 import java.text.DateFormat;
@@ -19,6 +22,9 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Locale;
 
+import android.provider.Settings;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.util.Log;
 import android.speech.tts.TextToSpeech;
 import android.support.v7.app.AppCompatActivity;
@@ -75,7 +81,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     Geocoder geocoder;
     List<Address> addresses;
 
+    int GPSoff;
 
+
+    int MY_PERMISSIONS_REQUEST_ACCESS_FINE_LOCATION;
+    int MY_PERMISSIONS_REQUEST_ACCESS_COARSE_LOCATION;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -217,10 +227,58 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             @Override
             public void onClick(View arg0) {
 
-                //Request current location using GPS
-                LocationListener listener = new MyLocationListener();
-                location_manager.requestLocationUpdates(
-                        LocationManager.GPS_PROVIDER, 0, 100, listener);
+                //request permissions
+                // Here, thisActivity is the current activity
+                if (ContextCompat.checkSelfPermission(MainActivity.this,
+                        Manifest.permission.ACCESS_FINE_LOCATION)
+                        != PackageManager.PERMISSION_GRANTED
+                        && ContextCompat.checkSelfPermission(MainActivity.this,
+                        Manifest.permission.ACCESS_COARSE_LOCATION)
+                        != PackageManager.PERMISSION_GRANTED) {
+
+                    // Should we show an explanation?
+                    if (ActivityCompat.shouldShowRequestPermissionRationale(MainActivity.this,
+                            Manifest.permission.ACCESS_FINE_LOCATION)) {
+
+                        // Show an explanation to the user *asynchronously* -- don't block
+                        // this thread waiting for the user's response! After the user
+                        // sees the explanation, try again to request the permission.
+
+                    } else {
+
+                        // No explanation needed, we can request the permission.
+
+                        ActivityCompat.requestPermissions(MainActivity.this,
+                                new String[]{Manifest.permission.ACCESS_FINE_LOCATION},
+                                MY_PERMISSIONS_REQUEST_ACCESS_FINE_LOCATION);
+
+                        ActivityCompat.requestPermissions(MainActivity.this,
+                                new String[]{Manifest.permission.ACCESS_COARSE_LOCATION},
+                                MY_PERMISSIONS_REQUEST_ACCESS_COARSE_LOCATION);
+
+                        // MY_PERMISSIONS_REQUEST_READ_CONTACTS is an
+                        // app-defined int constant. The callback method gets the
+                        // result of the request.
+                    }
+                }else{
+                    try {
+                        GPSoff = Settings.Secure.getInt(getContentResolver(),Settings.Secure.LOCATION_MODE);
+                    } catch (Settings.SettingNotFoundException e) {
+                        e.printStackTrace();
+                    }
+                    if (GPSoff == 0) {
+                        Intent gpsOptionsIntent = new Intent(
+                                android.provider.Settings.ACTION_LOCATION_SOURCE_SETTINGS);
+                        startActivity(gpsOptionsIntent);
+                    }else{
+                        //Request current location using GPS
+                        LocationListener listener = new MyLocationListener();
+                        location_manager.requestLocationUpdates(
+                                LocationManager.GPS_PROVIDER, 0, 100, listener);
+                    }
+
+                }
+
             }
         });
 
