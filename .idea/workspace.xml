@@ -22,6 +22,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc936af7-9354-4216-81ca-5fd1466b85f9" name="Default" comment="">
+<<<<<<< HEAD
+=======
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-19-16-08-53-258.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-19-16-20-58-402.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-19-16-21-53-161.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-19-16-27-56-797.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-19-16-27-59-345.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-19-16-28-51-847.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-19-16-29-23-132.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-19-16-31-09-436.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-19-16-32-06-392.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-19-16-33-53-445.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-19-16-39-21-843.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-19-16-08-53-258.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-19-16-20-58-402.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-19-16-21-53-161.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-19-16-27-56-797.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-19-16-27-59-345.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-19-16-28-51-847.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-19-16-29-23-132.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-19-16-31-09-436.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-19-16-32-06-392.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-19-16-33-53-445.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-19-16-39-21-843.json" />
+>>>>>>> Facebook-Share
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
@@ -31,9 +56,14 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/editLooptraject.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/editLooptraject.java" />
+>>>>>>> Facebook-Share
     </list>
     <ignored path="RunningApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,19 +98,79 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="2020">
               <caret line="491" column="5" lean-forward="true" selection-start-line="491" selection-start-column="5" selection-end-line="491" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#7880#8254#0" expanded="true" />
                 <element signature="e#8253#8254#0" expanded="true" />
+=======
+            <state relative-caret-position="28">
+              <caret line="171" column="16" lean-forward="false" selection-start-line="171" selection-start-column="16" selection-end-line="171" selection-end-column="16" />
+              <folding>
+                <element signature="e#3075#3106#0" expanded="true" />
+                <element signature="e#3108#3140#0" expanded="true" />
+                <element signature="e#3692#4144#0" expanded="true" />
+                <element signature="e#4143#4144#0" expanded="true" />
+                <element signature="e#5126#5443#0" expanded="true" />
+                <element signature="e#5442#5443#0" expanded="true" />
+                <element signature="e#5495#5820#0" expanded="true" />
+                <element signature="e#5819#5820#0" expanded="true" />
+                <element signature="e#6079#7046#0" expanded="true" />
+                <element signature="e#7045#7046#0" expanded="true" />
+                <element signature="e#7269#7422#0" expanded="true" />
+                <element signature="e#7421#7422#0" expanded="true" />
+                <element signature="e#10079#10452#0" expanded="true" />
+                <element signature="e#10451#10452#0" expanded="true" />
+                <element signature="e#11354#11727#0" expanded="true" />
+                <element signature="e#11726#11727#0" expanded="true" />
+                <element signature="e#12634#12999#0" expanded="true" />
+                <element signature="e#12998#12999#0" expanded="true" />
+                <element signature="e#13905#14270#0" expanded="true" />
+                <element signature="e#14269#14270#0" expanded="true" />
+>>>>>>> Facebook-Share
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+=======
+      <file leaf-file-name="editLooptraject.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/editLooptraject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="89" column="52" lean-forward="true" selection-start-line="89" selection-start-column="52" selection-end-line="89" selection-end-column="52" />
+              <folding>
+                <element signature="e#3054#3055#0" expanded="true" />
+                <element signature="e#3099#3100#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_input_looptraject.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_input_looptraject.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="644">
+              <caret line="58" column="17" lean-forward="false" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_edit_looptraject.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_looptraject.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+>>>>>>> Facebook-Share
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="7" column="80" lean-forward="true" selection-start-line="7" selection-start-column="80" selection-end-line="7" selection-end-column="80" />
@@ -100,8 +190,20 @@
               <folding />
             </state>
           </provider>
+<<<<<<< HEAD
           <provider selected="true" editor-type-id="android-designer2">
             <state />
+=======
+        </entry>
+      </file>
+      <file leaf-file-name="inputLooptraject.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/inputLooptraject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="64" column="4" lean-forward="false" selection-start-line="64" selection-start-column="4" selection-end-line="75" selection-end-column="5" />
+              <folding />
+            </state>
+>>>>>>> Facebook-Share
           </provider>
         </entry>
       </file>
@@ -112,6 +214,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="ic_launcher.png" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png">
           <provider selected="true" editor-type-id="images">
@@ -123,6 +226,15 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png">
           <provider selected="true" editor-type-id="images">
             <state />
+=======
+      <file leaf-file-name="RunningApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/RunningApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+              <folding />
+            </state>
+>>>>>>> Facebook-Share
           </provider>
         </entry>
       </file>
@@ -2135,6 +2247,7 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_edit_looptraject.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/LoopTrajectList.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/looptrajecten_list.xml" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/editLooptraject.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/inputLooptraject.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
@@ -2147,7 +2260,10 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_location.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/LocationActivity.java" />
+=======
+>>>>>>> Facebook-Share
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/editLooptraject.java" />
       </list>
     </option>
   </component>
@@ -2218,6 +2334,7 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
             </PATH_ELEMENT>
+<<<<<<< HEAD
             <PATH_ELEMENT>
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderNode" />
@@ -2262,6 +2379,8 @@
               <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
+=======
+>>>>>>> Facebook-Share
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -2295,6 +2414,7 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+<<<<<<< HEAD
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="RunningApp" />
@@ -2305,6 +2425,8 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
             </PATH_ELEMENT>
           </PATH>
+=======
+>>>>>>> Facebook-Share
         </subPane>
       </pane>
       <pane id="ProjectPane">
@@ -2524,7 +2646,11 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+<<<<<<< HEAD
         <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516471773153" />
+=======
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516376928590" />
+>>>>>>> Facebook-Share
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2572,7 +2698,11 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+<<<<<<< HEAD
         <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516471773154" />
+=======
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516376928590" />
+>>>>>>> Facebook-Share
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2604,27 +2734,6 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
@@ -2755,7 +2864,11 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+<<<<<<< HEAD
         <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516471773154" />
+=======
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516376928591" />
+>>>>>>> Facebook-Share
       </method>
     </configuration>
     <list size="1">
@@ -2890,18 +3003,46 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995037" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1693712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31885856" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+<<<<<<< HEAD
       <window_info id="Assistant" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889125" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Assistant" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904148" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+>>>>>>> Facebook-Share
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995037" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2841191" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34615386" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26251787" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -2922,6 +3063,117 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/inputLooptraject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="57" column="67" lean-forward="false" selection-start-line="57" selection-start-column="67" selection-end-line="57" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_input_looptraject.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="33" lean-forward="false" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/inputLooptraject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <element signature="e#3075#3106#0" expanded="true" />
+            <element signature="e#3108#3140#0" expanded="true" />
+            <element signature="e#3692#4144#0" expanded="true" />
+            <element signature="e#4143#4144#0" expanded="true" />
+            <element signature="e#5126#5443#0" expanded="true" />
+            <element signature="e#5442#5443#0" expanded="true" />
+            <element signature="e#5495#5820#0" expanded="true" />
+            <element signature="e#5819#5820#0" expanded="true" />
+            <element signature="e#6079#7046#0" expanded="true" />
+            <element signature="e#7045#7046#0" expanded="true" />
+            <element signature="e#7269#7422#0" expanded="true" />
+            <element signature="e#7421#7422#0" expanded="true" />
+            <element signature="e#10079#10452#0" expanded="true" />
+            <element signature="e#10451#10452#0" expanded="true" />
+            <element signature="e#11354#11727#0" expanded="true" />
+            <element signature="e#11726#11727#0" expanded="true" />
+            <element signature="e#12634#12999#0" expanded="true" />
+            <element signature="e#12998#12999#0" expanded="true" />
+            <element signature="e#13905#14270#0" expanded="true" />
+            <element signature="e#14269#14270#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="31" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="1" lean-forward="false" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> Facebook-Share
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/LoopTrajectenLijst.java" />
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
@@ -3056,6 +3308,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="240">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
@@ -3070,6 +3323,10 @@
         <state relative-caret-position="374">
           <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
           <folding />
+=======
+        <state relative-caret-position="750">
+          <caret line="73" column="104" lean-forward="false" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="104" />
+>>>>>>> Facebook-Share
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
@@ -3105,6 +3362,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_input_looptraject.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="986">
@@ -3117,6 +3375,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/LoginActivity.java">
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+>>>>>>> Facebook-Share
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
           <caret line="73" column="104" lean-forward="false" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="104" />
@@ -3170,6 +3431,7 @@
         <state />
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -3187,6 +3449,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/google-services.json">
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/looptrajecten_list.xml">
+>>>>>>> Facebook-Share
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-23">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -3258,10 +3523,39 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_location.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="40" column="17" lean-forward="false" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_input_looptraject.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="58" column="17" lean-forward="false" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_looptraject.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="55" lean-forward="false" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/inputLooptraject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="64" column="4" lean-forward="false" selection-start-line="64" selection-start-column="4" selection-end-line="75" selection-end-column="5" />
+>>>>>>> Facebook-Share
           <folding />
         </state>
       </provider>
@@ -3271,12 +3565,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="2020">
           <caret line="491" column="5" lean-forward="true" selection-start-line="491" selection-start-column="5" selection-end-line="491" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#7880#8254#0" expanded="true" />
             <element signature="e#8253#8254#0" expanded="true" />
+=======
+        <state relative-caret-position="28">
+          <caret line="171" column="16" lean-forward="false" selection-start-line="171" selection-start-column="16" selection-end-line="171" selection-end-column="16" />
+          <folding>
+            <element signature="e#3075#3106#0" expanded="true" />
+            <element signature="e#3108#3140#0" expanded="true" />
+            <element signature="e#3692#4144#0" expanded="true" />
+            <element signature="e#4143#4144#0" expanded="true" />
+            <element signature="e#5126#5443#0" expanded="true" />
+            <element signature="e#5442#5443#0" expanded="true" />
+            <element signature="e#5495#5820#0" expanded="true" />
+            <element signature="e#5819#5820#0" expanded="true" />
+            <element signature="e#6079#7046#0" expanded="true" />
+            <element signature="e#7045#7046#0" expanded="true" />
+            <element signature="e#7269#7422#0" expanded="true" />
+            <element signature="e#7421#7422#0" expanded="true" />
+            <element signature="e#10079#10452#0" expanded="true" />
+            <element signature="e#10451#10452#0" expanded="true" />
+            <element signature="e#11354#11727#0" expanded="true" />
+            <element signature="e#11726#11727#0" expanded="true" />
+            <element signature="e#12634#12999#0" expanded="true" />
+            <element signature="e#12998#12999#0" expanded="true" />
+            <element signature="e#13905#14270#0" expanded="true" />
+            <element signature="e#14269#14270#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/fabiovandooren/runningapp/editLooptraject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="89" column="52" lean-forward="true" selection-start-line="89" selection-start-column="52" selection-end-line="89" selection-end-column="52" />
+          <folding>
+            <element signature="e#3054#3055#0" expanded="true" />
+            <element signature="e#3099#3100#0" expanded="true" />
+>>>>>>> Facebook-Share
           </folding>
         </state>
       </provider>
